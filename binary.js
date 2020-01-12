@@ -32,7 +32,7 @@ function showTime() {
     dig5 = dig5.split('').join('<br>');
     dig6 = dig6.split('').join('<br>');
 
-    var e1 = document.getElementById("e1").innerHTML = dig1;;
+    var e1 = document.getElementById("e1").innerHTML = dig1;
     var e2 = document.getElementById("e2").innerHTML = dig2;
     var e3 = document.getElementById("e3").innerHTML = dig3;
     var e4 = document.getElementById("e4").innerHTML = dig4;
