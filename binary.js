@@ -1,5 +1,5 @@
 function convert(dec) {
-    return dec.toString(2);
+    return (dec >>> 0).toString(2);
 }
 
 function showTime() {
